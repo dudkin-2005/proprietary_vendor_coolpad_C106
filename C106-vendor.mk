@@ -1494,7 +1494,9 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/C106/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
     vendor/coolpad/C106/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
+
 PRODUCT_PACKAGES += \
+    libantradio \
     vendor.display.color@1.0 \
     libloc_api_v02 \
     libloc_ds_api \
